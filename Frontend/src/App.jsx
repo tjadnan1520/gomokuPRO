@@ -3,6 +3,7 @@ import HomePage from './components/HomePage';
 import SettingsPanel from './components/SettingsPanel';
 import GamePanel from './components/GamePanel';
 import ScoreboardPage from './components/ScoreboardPage';
+import RulesPage from './components/RulesPage';
 import GameDetailsModal from './components/GameDetailsModal';
 import { initBoard, checkWin, isDraw, findWinningLine, cloneBoard } from './gameLogic';
 import { getAIMove } from './aiEngine';
@@ -163,6 +164,7 @@ export default function App() {
           <HomePage 
             onPlayClick={() => setCurrentPage('settings')}
             onScoreboardClick={() => setCurrentPage('scoreboard')}
+            onRulesClick={() => setCurrentPage('rules')}
           />
         );
       case 'settings':
@@ -191,6 +193,12 @@ export default function App() {
             key={scoreboardRefresh}
             onBack={() => setCurrentPage('home')}
             onGameDetails={(game) => setSelectedGameDetails(game)}
+          />
+        );
+      case 'rules':
+        return (
+          <RulesPage 
+            onBack={() => setCurrentPage('home')}
           />
         );
       default:
