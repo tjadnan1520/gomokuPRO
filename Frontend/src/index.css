@@ -6,7 +6,7 @@
 body {
   margin: 0;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #891077 0%, #da66ef 100%);
   color: #222;
   min-height: 100vh;
 }
@@ -43,7 +43,7 @@ body {
 
 header {
   text-align: center;
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #da66ef 0%, #891077 100%);
   color: white;
   padding: 30px 20px;
 }
@@ -68,7 +68,7 @@ header h1 {
 
 .home-content h2 {
   font-size: 2rem;
-  color: #667eea;
+  color: #da66ef;
   margin: 0 0 10px 0;
 }
 
@@ -96,7 +96,7 @@ header h1 {
 }
 
 .primary-btn {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #da66ef 0%, #891077 100%);
   color: white;
 }
 
@@ -113,12 +113,12 @@ header h1 {
 
 .secondary-btn {
   background: #f0f0f0;
-  color: #667eea;
-  border: 2px solid #667eea;
+  color: #da66ef;
+  border: 2px solid #da66ef;
 }
 
 .secondary-btn:hover {
-  background: #667eea;
+  background: #da66ef;
   color: white;
   transform: translateY(-3px);
 }
@@ -143,17 +143,17 @@ header h1 {
   border-radius: 8px;
   cursor: pointer;
   font-weight: 600;
-  color: #667eea;
+  color: #da66ef;
   transition: all 0.3s ease;
 }
 
 .back-btn:hover {
-  background: #667eea;
+  background: #da66ef;
   color: white;
 }
 
 .settings-panel h2 {
-  color: #667eea;
+  color: #da66ef;
   margin: 0;
 }
 
@@ -186,13 +186,13 @@ header h1 {
 }
 
 .mode-btn.selected {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #da66ef 0%, #891077 100%);
   color: white;
-  border-color: #667eea;
+  border-color: #da66ef;
 }
 
 .mode-btn:hover {
-  border-color: #667eea;
+  border-color: #da66ef;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
 }
@@ -213,7 +213,7 @@ header h1 {
 
 .player-inputs input:focus {
   outline: none;
-  border-color: #667eea;
+  border-color: #da66ef;
   box-shadow: 0 0 10px rgba(102, 126, 234, 0.2);
 }
 
@@ -224,11 +224,11 @@ header h1 {
 
 .ai-opponent-display {
   padding: 12px 15px;
-  border: 2px solid #667eea;
+  border: 2px solid #da66ef;
   border-radius: 10px;
   font-size: 1rem;
   background: #f0f4ff;
-  color: #667eea;
+  color: #da66ef;
   font-weight: 600;
   display: flex;
   align-items: center;
@@ -271,13 +271,13 @@ header h1 {
 }
 
 .difficulty-btn.selected {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #da66ef 0%, #891077 100%);
   color: white;
-  border-color: #667eea;
+  border-color: #da66ef;
 }
 
 .difficulty-btn:hover {
-  border-color: #667eea;
+  border-color: #da66ef;
   transform: translateY(-2px);
   box-shadow: 0 5px 15px rgba(102, 126, 234, 0.2);
 }
@@ -299,7 +299,7 @@ header h1 {
 
 .game-header h2 {
   margin: 0;
-  color: #667eea;
+  color: #da66ef;
 }
 
 .spacer {
@@ -343,7 +343,7 @@ header h1 {
 
 .turn-indicator {
   font-weight: 700;
-  color: #667eea;
+  color: #da66ef;
   text-align: center;
   flex: 1;
   padding: 0 15px;
@@ -419,7 +419,7 @@ header h1 {
 .game-message {
   font-size: 1.3rem;
   font-weight: 700;
-  color: #667eea;
+  color: #da66ef;
   min-height: 35px;
   text-align: center;
   padding: 10px;
@@ -433,7 +433,7 @@ header h1 {
 }
 
 .scoreboard-page h2 {
-  color: #667eea;
+  color: #da66ef;
   text-align: center;
   margin-top: 0;
 }
@@ -446,7 +446,7 @@ header h1 {
 }
 
 .stat-card {
-  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background: linear-gradient(135deg, #da66ef 0%, #891077 100%);
   color: white;
   padding: 20px;
   border-radius: 12px;
@@ -483,7 +483,7 @@ header h1 {
   align-items: center;
   cursor: pointer;
   transition: all 0.3s ease;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #da66ef;
 }
 
 .game-record:hover {
@@ -510,7 +510,7 @@ header h1 {
 
 .game-record-winner {
   font-weight: 600;
-  color: #667eea;
+  color: #da66ef;
   background: white;
   padding: 5px 12px;
   border-radius: 6px;
@@ -568,7 +568,7 @@ header h1 {
 }
 
 .close-btn:hover {
-  color: #667eea;
+  color: #da66ef;
 }
 
 .modal-body {
@@ -582,7 +582,7 @@ header h1 {
 }
 
 .modal-body strong {
-  color: #667eea;
+  color: #da66ef;
 }
 
 
@@ -671,7 +671,7 @@ footer {
 }
 
 .rules-page h2 {
-  color: #667eea;
+  color: #da66ef;
   margin: 0 0 20px 0;
   font-size: 2rem;
 }
@@ -685,12 +685,12 @@ footer {
 .rule-section {
   padding: 20px;
   background: #f9f9f9;
-  border-left: 4px solid #667eea;
+  border-left: 4px solid #da66ef;
   border-radius: 8px;
 }
 
 .rule-section h3 {
-  color: #667eea;
+  color: #da66ef;
   margin: 0 0 12px 0;
   font-size: 1.4rem;
 }
@@ -719,7 +719,7 @@ footer {
 }
 
 .rule-section li strong {
-  color: #667eea;
+  color: #da66ef;
 }
 
 .mode-description {
