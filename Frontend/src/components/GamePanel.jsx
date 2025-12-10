@@ -18,7 +18,7 @@ export default function GamePanel({
     <section className="game-panel">
       <div className="game-header">
         <button className="back-btn" onClick={onHome}>← Home</button>
-        <h2>gomokuAI</h2>
+        <h2>gomokuPRO</h2>
         <div className="spacer"></div>
       </div>
       
