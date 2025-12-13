@@ -117,11 +117,20 @@ export default function App() {
     setGameMessage(msg);
     
     if (currentGameData) {
+      // Convert winner from color to player name
+      let winnerName = winner;
+      if (winner === 'black') {
+        winnerName = playerNames.black;
+      } else if (winner === 'white') {
+        winnerName = playerNames.white;
+      }
+      // winner stays as 'draw' if it's a draw
+      
       await saveGameResult(
         playerNames.black,
         playerNames.white,
         mode,
-        winner,
+        winnerName,
         currentGameData.moves,
         finalBoard
       );
