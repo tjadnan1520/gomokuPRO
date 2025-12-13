@@ -16,6 +16,21 @@ export default function ScoreboardPage({ onBack, onGameDetails }) {
     setLoading(false);
   }
 
+  const getWinnerDisplay = (game) => {
+    if (game.winner === 'draw') {
+      return 'Draw';
+    }
+    // If winner is 'black' or 'white', convert to player name
+    if (game.winner === 'black') {
+      return game.player1;
+    }
+    if (game.winner === 'white') {
+      return game.player2;
+    }
+    // Otherwise, winner is already the player name
+    return game.winner;
+  };
+
   return (
     <section className="scoreboard-page">
       <div className="back-btn-group">
@@ -52,7 +67,7 @@ export default function ScoreboardPage({ onBack, onGameDetails }) {
                 </div>
               </div>
               <div className="game-record-winner">
-                {game.winner === 'draw' ? 'Draw' : game.winner}
+                {getWinnerDisplay(game)}
               </div>
             </div>
           ))
