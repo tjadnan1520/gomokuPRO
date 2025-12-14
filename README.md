@@ -78,16 +78,6 @@ npm run dev
 
 Open the frontend at the Vite dev URL (typically `http://localhost:5173`) and the backend at `http://localhost:4000` by default.
 
-## API
-
-Important endpoints (backend):
-
-- `GET /api/health` — health check
-- `POST /api/games` — create a game (see `Backend/routes/games.js`)
-- `GET /api/games` — list games
-- `GET /api/games/:id` — game details
-
-See `Backend/routes/games.js` for the exact API shape and additional endpoints.
 
 ## Building for production
 
